@@ -1,0 +1,28 @@
+.movies{
+    margin-top: 90px;
+}
+
+.moviesBlock{
+    width: 1400px;
+    height: auto;
+    margin: 30px auto;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.scroll_movies{
+    height: 400px;
+    overflow-x: scroll;
+    display: flex;
+    margin-left: 10px;
+    padding: 20px;
+  
+    
+
+}
+
+.scroll_movies img{
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+}
