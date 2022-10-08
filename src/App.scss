@@ -1,0 +1,50 @@
+.form{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input{
+        width: 400px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    button{
+        width: 150px;
+        padding: 10px;
+    }
+}
+
+.listTodo{
+    width: 800px;
+    padding: 10px;
+ 
+    margin: 80px auto;
+    li{
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 10px;
+        box-shadow: 0 0 5px black;
+        list-style: none;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        img{
+            width: 25px;
+            transform: translateX(170%);
+            transition: 0.3s ease-in-out;
+        }
+
+     
+
+        
+    }
+    li:hover img{
+        width: 25px;
+        transform: translateX(0%);
+        transition: 0.3s ease-in-out;
+    }
+}
+
